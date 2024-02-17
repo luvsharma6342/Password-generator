@@ -83,6 +83,10 @@ h1 {
     transform: translateY(-50%);
 }
 
+.display:focus {
+    outline: none;
+}
+
 .display-container button {
     position: absolute;
     top: 50%;
@@ -218,8 +222,6 @@ h1 {
     opacity: 1;
     transform: scale(1);
 }
-
-
 
 .slider {
     appearance: none;

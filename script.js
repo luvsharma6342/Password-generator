@@ -133,12 +133,12 @@ allCheckBox.forEach((checkbox) => {
 inputSlider.addEventListener('input', (e) => {
     passwordLength = e.target.value;
     handleSlider();
-})
+});
 
 copyBtn.addEventListener('click', () => {
     if (passwordDisplay.value)
         copyContent();
-})
+});
 
 generateBtn.addEventListener('click', () => {
     if (checkCount <= 0) return;
